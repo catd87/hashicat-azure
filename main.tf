@@ -136,7 +136,7 @@ resource "azurerm_virtual_machine" "catapp" {
   }
 
   tags = {
-    name s"Department"
+    name = "Department"
     Owner = "DevOps"
   }
 
