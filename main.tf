@@ -138,6 +138,7 @@ resource "azurerm_virtual_machine" "catapp" {
   tags = {
     Department = "DevOps"
     Billable = "Dev2"
+    house = "test"
 
   }
 
