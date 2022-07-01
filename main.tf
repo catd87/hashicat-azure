@@ -136,7 +136,7 @@ resource "azurerm_virtual_machine" "catapp" {
   }
 
   tags = {
-    Name = "devops"
+    "deparment"
 
   }
 
